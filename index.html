@@ -353,28 +353,36 @@
 				<input type = 'text' style = 'display:none;' name = 'returnURL' value = 'null'>
 				</input>
 				<!-- Do not remove this code. -->
-				<style>
+					<style>
 					html,body{
 						margin: 0px;
+            width: 100%;
 					}
+          
 					.formsubmit.zcwf_button{
 						color: white !important;
 						background: transparent linear-gradient(0deg, #0279FF 0%, #00A3F3 100%);
-						width:200px;
+            height: 50px;
+            width: 200px;
+          
 					}
 					#crmWebToEntityForm.zcwf_lblLeft{
 						width: 100%;
-						padding: 10px;
+						padding: 25px;
 						margin: 0 auto;
 						box-sizing: border-box;
 					}
 					#crmWebToEntityForm.zcwf_lblLeft *{
 						box-sizing: border-box;
+            font-size: 20px;
 					}
-					#crmWebToEntityForm {text-align: left;
+					#crmWebToEntityForm {
+            text-align: left;
+            /* font-size:40px; */
 					}
 					#crmWebToEntityForm *{
 					direction: ltr;
+          font-size: 15px; 
 					}
 					.zcwf_lblLeft .zcwf_title{
 					word-wrap: break-word;
@@ -388,11 +396,13 @@
 					outline: 0 !important;
 					}
 					.zcwf_lblLeft .zcwf_col_fld input[type = text], input[type = password], .zcwf_lblLeft .zcwf_col_fld textarea{
-					width: 60%;
+					width: 70%;
 					border: 1px solid  #c0c6cc !important;
 					resize: vertical;
-					border-radius: 2px;
+					border-radius: 10px;
+          height: 45px;
 					float: left;
+          
 					}
 					.zcwf_lblLeft .zcwf_col_lab{
 					width: 30%;
@@ -417,7 +427,7 @@
 					.dIB {display: inline-block;
 					}
 					.zcwf_lblLeft .zcwf_col_fld_slt{
-					width: 60%;
+					width: 70%;
 					border: 1px solid  #ccc;
 					background:  #fff;
 					border-radius: 4px;
@@ -425,6 +435,9 @@
 					float: left;
 					resize: vertical;
 					padding: 2px 5px;
+          height: 45px;
+          border-radius: 10px;
+          margin-left: 7%;
 					}
 					.zcwf_lblLeft .zcwf_row:after, .zcwf_lblLeft .zcwf_col_fld:after{
 					content: '';
@@ -454,6 +467,9 @@
 					}
 					.zcwf_lblLeft .zcwf_row {margin: 15px 0px;
 					}
+          .zcwf_lblLeft .zcwf_row input{
+            margin-left: 7%;
+          }
 					.zcwf_lblLeft .formsubmit{
 					margin-right: 5px;
 					cursor: pointer;
@@ -476,12 +492,14 @@
 					color:  #313949;
 					border: 1px solid  #c0c6cc;
 					padding: 3px 9px;
-					border-radius: 4px;
+					border-radius: 13px;
 					cursor: pointer;
 					max-width: 120px;
 					overflow: hidden;
 					text-overflow: ellipsis;
 					white-space: nowrap;
+          height: 50px;
+          width: 200px;
 					}
 					.zcwf_lblLeft .zcwf_tooltip_over{
 					position: relative;
@@ -520,6 +538,7 @@
 					}
 					}
 				</style>
+		
 				<div class = 'zcwf_title' style = 'max-width: 600px;color: black; font-family:Arial;'>
 					Lead Creation
 				</div>
